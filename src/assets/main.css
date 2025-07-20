@@ -1,3 +1,6 @@
 @import './base.css';
 @import "tailwindcss";
 
+button:not(:disabled), [role=button]:not(:disabled) {
+    cursor: pointer;
+}
